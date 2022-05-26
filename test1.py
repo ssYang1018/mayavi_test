@@ -6,7 +6,8 @@ import os
 sourcefolder = r'E:\Desktop\中惠\资源文件\8815029_npy'
 img = []
 # mlab.options.offscreen=True
-for subfiles in os.listdir(sourcefolder)[150:180]:
+for subfiles in os.listdir(sourcefolder):
+# for subfiles in os.listdir(sourcefolder)[150:180]:
     sourcefiles = sourcefolder +'\\'+ subfiles
 
     # current_img = imread(sourcefiles)
@@ -18,6 +19,7 @@ for subfiles in os.listdir(sourcefolder)[150:180]:
 
 
 img_arr = np.array(img)
-mlab.points3d(img_arr, mode="point", opacity=0.5, line_width=0.02)
+# mlab.points3d(img_arr, mode="point", opacity=0.5, line_width=0.02)
+mlab.contour3d(img_arr, opacity=1)
 
 mlab.show()

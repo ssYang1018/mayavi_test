@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
-"""
-@Time    : 2022/4/13 20:17
-@Author  : LIN
-@File    : tvtk_example01.py
-@IDE     : PyCharm
-"""
+
 from tvtk.api import tvtk
 from tvtk.tools import mlab
 import numpy as np
 
-from numpy2vtk_test import generateVTK
+from numpy2vtk_test import generateVTK,generateVTK2
 
 
 def depth_peeling(scene):
@@ -85,6 +80,7 @@ def test():
 
 def test_show_vtkData():
     vtk_object = generateVTK()
+    # vtk_object = generateVTK2()
 
     # con = tvtk.StructuredGridOutlineFilter()
     con = tvtk.ContourFilter()
@@ -93,11 +89,11 @@ def test_show_vtkData():
     m = tvtk.PolyDataMapper(input_connection=con.output_port)  # 3 映射器
     # m = tvtk.PolyDataMapper(scalar_range=vtk_object.GetPointData().scalars.range,
     #                     input_connection = con.output_port)  # 3 映射器
-
+    p = tvtk.Property(opacity=0.7, color=(1, 0, 0))
     # 创建一个Actor场景的实体，实体中是图像对象
-    a = tvtk.Actor(mapper=m)
-    a.property.opacity = 1 #透明度0.1
-    a.property.color = 0, 0, 0
+    a = tvtk.Actor(mapper=m, property=p)
+    # a.property.opacity = 1 #透明度0.1
+    # a.property.color = 0, 0, 0
     win = ivtk_scene(a)
     win.scene.isometric_view()
 
