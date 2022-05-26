@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/tvtk_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="110" column="12" lean-forward="true" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+              <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
               <folding>
                 <element signature="e#122#147#0" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/demo/official_demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="385">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="e#1#24#0" expanded="true" />
               </folding>
@@ -148,6 +148,9 @@
       <find>sphere_mapper</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -168,6 +171,7 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -346,12 +350,12 @@
       <workItem from="1653353550895" duration="19135000" />
       <workItem from="1653439016398" duration="5126000" />
       <workItem from="1653444704745" duration="2376000" />
-      <workItem from="1653525932777" duration="6201000" />
+      <workItem from="1653525932777" duration="7061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51454000" />
+    <option name="totallyTimeSpent" value="52314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -370,7 +374,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.4427157" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2970297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29745042" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -681,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/demo/official_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="e#1#24#0" expanded="true" />
           </folding>
@@ -691,7 +695,7 @@
     <entry file="file://$PROJECT_DIR$/tvtk_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="110" column="12" lean-forward="true" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
           <folding>
             <element signature="e#122#147#0" expanded="true" />
           </folding>
